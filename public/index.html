@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tailwind.css">
+  <title>Sign In</title>
+</head>
+
+<body>
+
+  <div class="w-full h-screen fixed">
+    <img src="./images/nature-3082832_1280.jpg" alt="" class="w-full h-full object-cover">
+  </div>
+
+  <div class="absolute w-full h-screen flex items-center justify-center">
+    <div class="w-full max-w-xs lg:max-w-sm">
+
+      <!-- signin form -->
+      <div class="bg-[#2E3337] border-2 shadow-md rounded-2xl px-8 pt-8 pb-8">
+        <div class="mb-4">
+          <h1 class="text-center text-[#ffffff] text-2xl font-bold mb-2">Login</h1>
+
+          <label for="username" class="block appearance-none text-[#f7b36a] text-sm font-bold mb-2">
+            Username
+          </label>
+          <input type="text" placeholder="username"
+            class="shadow border-2 bg-gray-100 focus:bg-white focus:border-[#FBBF80] rounded-2xl  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none">
+
+          <label for="username" class="block appearance-none text-[#f7b36a] text-sm font-bold mb-2">
+            password
+          </label>
+          <input type="password" placeholder="********************"
+            class="shadow border-2 bg-gray-100 focus:bg-white focus:border-[#FBBF80] rounded-2xl  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none">
+          <p class="text-red-500 text-xs mt-2.5 mb-2.5">Please choose a password</p>
+        </div>
+
+        <div class="flex items-center justify-center">
+          <button
+            class="w-full bg-[#f7b36a] rounded-2xl hover:bg-blue-700 text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline">Sign
+            In</button>
+        </div>
+
+        <div class="flex items-center justify-between mt-2 mb-2">
+          <a href="#" class="mt-4 inline-block align-baseline font-semibold text-sm text-[#f7b36a] hover:text-blue-800">
+            Forgot password
+          </a>
+          <a href="#" class="mt-4 inline-block align-baseline font-semibold text-blue-500 hover:text-blue-800 text-xs">
+            New user? Sign Up
+          </a>
+        </div>
+      </div>
+      <!-- signin form -->
+    </div>
+  </div>
+
+  <div class="absolute w-full top-[95%]">
+    <h1 class="text-center text-xs font-sans font-semibold text-gray-200 brightness-200">&copy;2023 coding with
+      chamindu. All rights reserved</h1>
+  </div>
+</body>
+
+</html>
